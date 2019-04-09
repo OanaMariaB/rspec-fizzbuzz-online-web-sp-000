@@ -2,6 +2,7 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   puts "int".to_i
+  int = gets
   if ((int % 3) == 0) && ((int % 5) == 0)
     puts "FizzBuzz"
   elsif (int % 3) == 0
@@ -12,5 +13,3 @@ def fizzbuzz(int)
     puts "nil"
   end
 end
-
-fizzbuzz(150)
